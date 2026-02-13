@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/manticore",
     "maintainers": [
       {
@@ -18,398 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "manticore",
     "name": "Manticore",
-    "aliases": [
-      {
-        "name": "Martyaxwar",
-        "language": "Persian",
-        "region": "Ancient Persia",
-        "meaning": "Man-eater"
-      },
-      {
-        "name": "Mantichora",
-        "language": "Greek",
-        "region": "Ancient Greece"
-      },
-      {
-        "name": "Manticora",
-        "language": "Latin",
-        "region": "Medieval Europe"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Hybrid Man-eater",
+    "subcategory": "| Description | Period |",
     "tags": [
-      "persian",
-      "hybrid",
-      "man-eater",
-      "medieval-bestiary",
-      "scorpion-tail",
-      "composite-creature"
+      "—-dangerous-cunning-and-complete-destruction"
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "A Persian legendary creature with a human head, lion's body, and scorpion tail that shoots venomous spines. Known as a voracious man-eater with three rows of teeth that devours entire victims, leaving no remains.",
-      "full": "The manticore is a legendary creature from Persian mythology, described as having a human head, a lion's body, and a scorpion's tail armed with venomous spines that can be shot like projectiles. Its name derives from the Persian 'martyaxwar' meaning 'man-eater.' First described by the Greek physician Ctesias in the 5th century BCE based on Persian accounts, the manticore is characterized by three rows of teeth running along each jaw, a trumpet-like voice, and the ability to devour its prey entirely, bones and all, leaving no trace. The creature was incorporated into medieval European bestiaries and heraldry. The manticore is likely based on exaggerated accounts of Persian tigers, possibly combined with cultural fears and mistranslation."
+      "summary": "The manticore is a legendary creature from Persian mythology, described as having a **human head**, a **lion's body**, and a **scorpion's tail** armed with venomous spines that can be shot like projectiles.",
+      "full": "The manticore is a legendary creature from Persian mythology, described as having a **human head**, a **lion's body**, and a **scorpion's tail** armed with venomous spines that can be shot like projectiles. Its name derives from the Persian **'martyaxwar'** meaning \\\"man-eater.\\\" First described by the Greek physician **Ctesias** in the 5th century BCE based on Persian accounts, the manticore is characterized by **three rows of teeth** running along each jaw, a trumpet-like voice, and the ability to devour its prey entirely—bones, clothing, and all—leaving no trace. The creature was incorporated into medieval European bestiaries and heraldry. The manticore is **likely based on exaggerated accounts of Persian tigers**, possibly combined with cultural fears and mistranslation."
     },
     "etymology": {
-      "origin": "From Persian 'martyaxwar' (man-eater), through Greek 'mantichoras' (μαρτιχόρας), to Latin 'manticora'.",
-      "meaning": "Man-eater",
-      "first_use": "5th century BCE (Ctesias)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Hybrid Monster",
-      "subtype": "Composite Man-eater",
-      "variant": "Persian/Greek"
+      "type": "| Description | Period |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "sphinx",
-        "name": "Sphinx",
-        "relationship": "similar",
-        "description": "Another composite creature with human head and lion body"
-      },
-      {
-        "id": "chimera",
-        "name": "Chimera",
-        "relationship": "similar",
-        "description": "Greek composite monster with multiple animal parts"
-      },
-      {
-        "id": "griffin",
-        "name": "Griffin",
-        "relationship": "related",
-        "description": "Another Near Eastern hybrid creature"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size": {
-        "description": "Large as a lion",
-        "confidence": "medium"
-      },
-      "coloration": [
-        "red",
-        "tawny",
-        "lion-colored"
-      ],
-      "features": [
-        {
-          "feature": "Human head",
-          "description": "Face of a human, often depicted as bearded man",
-          "frequency": "always"
-        },
-        {
-          "feature": "Three rows of teeth",
-          "description": "Three complete rows of teeth in each jaw",
-          "frequency": "always"
-        },
-        {
-          "feature": "Lion body",
-          "description": "Body and legs of a large lion",
-          "frequency": "always"
-        },
-        {
-          "feature": "Scorpion tail",
-          "description": "Tail of a scorpion with venomous spines",
-          "frequency": "always"
-        },
-        {
-          "feature": "Blue or gray eyes",
-          "description": "Often described with pale eyes",
-          "frequency": "common"
-        },
-        {
-          "feature": "Red fur/mane",
-          "description": "Reddish coloration in many descriptions",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Composite creature combining human head with lion body and scorpion tail"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Spine projectiles",
-        "description": "Can shoot venomous spines from tail like arrows",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Complete consumption",
-        "description": "Devours entire prey including bones, clothing, and possessions, leaving no trace",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Trumpet voice",
-        "description": "Voice like a trumpet or pipe",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Great speed",
-        "description": "Extremely swift and agile like a lion",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "hostile",
-      "habitat_preference": [
-        "jungles",
-        "forests",
-        "wilderness",
-        "India (in Greek accounts)"
-      ],
-      "diet": "Exclusively human flesh",
-      "patterns": [
-        "Preys exclusively on humans",
-        "Leaves no remains of victims",
-        "Actively hunts people",
-        "Feared predator"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Persian mythology, described as inhabiting India in Greek accounts",
-      "continents": ["Asia"],
-      "regions": [
-        "Ancient Persia",
-        "India (in Greek descriptions)",
-        "Medieval European bestiaries (literary)"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "5th century BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Ctesias of Cnidus"
-      },
-      "spread": "Adopted into Greek, then Roman, then medieval European lore"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Persian mythology, transmitted to Greece through Ctesias, physician to Persian King Artaxerxes II",
-      "earliest_accounts": "Ctesias of Cnidus (5th century BCE) in his work 'Indica'",
-      "folklore_connections": "Possibly based on Persian tiger sightings, exaggerated through oral transmission and translation errors"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "5th century BCE",
-        "event": "Ctesias describes the manticore",
-        "significance": "First written Greek account based on Persian stories",
-        "source": "Indica by Ctesias"
-      },
-      {
-        "date": "4th century BCE",
-        "event": "Aristotle mentions manticore",
-        "significance": "Included in Aristotle's History of Animals (skeptically)",
-        "source": "History of Animals"
-      },
-      {
-        "date": "1st century CE",
-        "event": "Pliny the Elder's account",
-        "significance": "Roman natural history includes manticore",
-        "source": "Natural History"
-      },
-      {
-        "date": "Medieval period",
-        "event": "European bestiaries",
-        "significance": "Incorporated into medieval bestiaries and heraldry",
-        "source": "Medieval manuscripts"
-      }
-    ],
-    "modern_era": "The manticore remains a popular creature in fantasy literature, games, and art. It appears in works ranging from medieval heraldry to modern role-playing games like Dungeons & Dragons, often retaining its fearsome man-eating reputation."
+    "timeline": []
   },
-
-  "original_description": {
-    "source": "Ctesias of Cnidus, 5th century BCE",
-    "description": "According to Ctesias, the manticore (martyaxwar) is found in India. It has the face of a human, three rows of teeth, the body of a lion, and a tail like a scorpion's with stinging spines that can be shot like arrows. Its voice resembles a trumpet. It is red in color and devours its prey entirely, leaving nothing behind - not bones, clothing, or possessions."
-  },
-
-  "possible_basis": {
-    "tiger_theory": {
-      "description": "Most likely based on Persian/Caspian tigers",
-      "evidence": [
-        "Tigers were present in Persia",
-        "Man-eating tigers documented historically",
-        "Three rows of teeth possibly exaggerated description of tiger teeth",
-        "Red/orange coloration matches",
-        "Size matches",
-        "Man-eating behavior matches"
-      ],
-      "interpretation": "Exaggerated accounts of tiger attacks, possibly combined with mistranslation and cultural embellishment"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "cultural_transmission": {
-      "description": "Details added or distorted through translation from Persian to Greek",
-      "evidence": [
-        "Ctesias relied on secondhand accounts",
-        "Translation errors likely",
-        "Cultural differences in description",
-        "Addition of fantastical elements"
-      ]
-    }
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "symbolism": {
-    "primary_meanings": [
-      "Savage predation",
-      "Exotic danger",
-      "The other/foreign threat",
-      "Composite evil",
-      "Complete destruction"
-    ],
-    "medieval_interpretation": [
-      "Symbol of the devil devouring sinners",
-      "Complete consumption as metaphor for damnation",
-      "Foreign/unknown dangers"
-    ]
-  },
-
   "evidence": {
     "physical": [],
-    "historical": [
-      {
-        "type": "literary",
-        "description": "Ancient Greek texts by Ctesias, Aristotle, Pliny",
-        "status": "documented",
-        "period": "5th century BCE onwards"
-      },
-      {
-        "type": "bestiary",
-        "description": "Medieval bestiaries with illustrations",
-        "status": "documented",
-        "period": "Medieval Europe"
-      },
-      {
-        "type": "heraldic",
-        "description": "Manticore in European heraldry",
-        "status": "documented",
-        "period": "Medieval-present"
-      }
-    ]
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "historical_basis": [
-      {
-        "name": "Tiger-based legend",
-        "description": "Likely based on Persian/Caspian tigers, exaggerated through oral transmission",
-        "evidence_cited": ["Tiger presence in Persia", "Man-eating behavior", "Similar size and coloration", "Mistranslation likely"]
-      },
-      {
-        "name": "Cultural embellishment",
-        "description": "Real tiger accounts embellished with fantastical elements through cultural transmission",
-        "evidence_cited": ["Secondhand reporting by Ctesias", "Translation from Persian to Greek", "Addition of impossible features"]
-      }
-    ],
-    "cryptozoological": [
-      {
-        "name": "No modern claims",
-        "description": "No modern sighting reports; purely historical/mythological",
-        "evidence_cited": ["Absence of sighting claims", "Clearly fantastical elements"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Persian mythology",
-        "Greek natural history",
-        "Medieval bestiary tradition"
-      ],
-      "beliefs": "Believed to be a real creature in ancient and medieval times, part of natural history"
-    },
-    "medieval_usage": {
-      "bestiaries": "Featured in illuminated manuscripts with moral lessons",
-      "heraldry": "Used in coats of arms to represent fierceness",
-      "symbolism": "Symbol of dangerous cunning and complete destruction"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Medieval bestiaries",
-        "T.H. White's 'The Book of Beasts'",
-        "Modern fantasy literature"
-      ],
-      "games": [
-        "Dungeons & Dragons",
-        "Magic: The Gathering",
-        "World of Warcraft",
-        "The Witcher series"
-      ],
-      "other": [
-        "Heraldry and coat of arms",
-        "Fantasy art",
-        "Role-playing games"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "scholars": [
-      {
-        "name": "Ctesias of Cnidus",
-        "contribution": "First Greek description based on Persian accounts",
-        "period": "5th century BCE"
-      },
-      {
-        "name": "Aristotle",
-        "contribution": "Mentioned in History of Animals (with skepticism)",
-        "period": "4th century BCE"
-      },
-      {
-        "name": "Pliny the Elder",
-        "contribution": "Included in Roman Natural History",
-        "period": "1st century CE"
-      }
-    ],
-    "classification": "Mythological creature - likely based on tiger, no cryptozoological research"
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "ctesias-indica",
-      "type": "ancient_text",
-      "title": "Indica",
-      "authors": ["Ctesias of Cnidus"],
-      "date": "~5th century BCE",
-      "note": "Fragmentary, preserved in later authors"
-    },
-    {
-      "id": "aristotle-animals",
-      "type": "ancient_text",
-      "title": "History of Animals",
-      "authors": ["Aristotle"],
-      "date": "~4th century BCE"
-    },
-    {
-      "id": "pliny-nh",
-      "type": "ancient_text",
-      "title": "Natural History",
-      "authors": ["Pliny the Elder"],
-      "date": "77-79 CE"
-    },
-    {
-      "id": "white-1954",
-      "type": "book",
-      "title": "The Book of Beasts: Being a Translation from a Latin Bestiary of the Twelfth Century",
-      "authors": ["T.H. White"],
-      "publication": "Jonathan Cape",
-      "date": "1954"
-    }
-  ]
+  "sources": []
 }
