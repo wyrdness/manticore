@@ -1,296 +1,148 @@
 # Manticore
 
-> *"The man-eater of Persia, with teeth like a saw and a taste for human flesh."*
+> A man-eating creature of Persian origin, first described in Greek by the physician-historian Ctesias in the 5th century BCE. The manticore has the body of a lion, the face of a man with three rows of teeth, and a tail tipped with venomous spines or a scorpion's sting.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-mythological-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `manticore` |
 | **Category** | MYTHOLOGICAL_CREATURE |
-| **Classification** | Hybrid Man-eater / Composite Creature |
-| **First Recorded** | 5th century BCE (Ctesias) |
-| **Primary Region** | Ancient Persia / India (in Greek accounts) |
-| **Status** | Mythological |
+| **Subcategory** | Persian / Greco-Persian composite man-eater |
+| **First recorded** | 0400 BCE |
+| **Primary range** | Originally placed in 'India' by Ctesias and his Greek and Latin successors |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The manticore is a legendary creature from Persian mythology, described as having a **human head**, a **lion's body**, and a **scorpion's tail** armed with venomous spines that can be shot like projectiles.
-
-Its name derives from the Persian **'martyaxwar'** meaning "man-eater." First described by the Greek physician **Ctesias** in the 5th century BCE based on Persian accounts, the manticore is characterized by **three rows of teeth** running along each jaw, a trumpet-like voice, and the ability to devour its prey entirely—bones, clothing, and all—leaving no trace.
-
-The creature was incorporated into medieval European bestiaries and heraldry. The manticore is **likely based on exaggerated accounts of Persian tigers**, possibly combined with cultural fears and mistranslation.
+The manticore is a legendary man-eating creature of Persian origin, first transmitted into Greek literature by Ctesias of Cnidus, a physician at the Achaemenid Persian court in the late 5th century BCE. In his Indica (preserved in summaries by Photius and quotations in Aelian's De Natura Animalium), Ctesias describes the martichora as a creature of India the size of the largest lion, cinnabar-red in colour, with a human face, blue eyes, three rows of teeth, and a tail like that of a scorpion that could fire venomous spines fore, aft, or sideways. The name is a Greek transliteration of an Old Persian compound 'martyaxwar' / 'martīya-xvāra', meaning 'man-eater'. Aristotle cites Ctesias on the creature in the Historia Animalium, and Pliny the Elder includes it in the Natural History; through these sources the manticore became a fixture of medieval European bestiaries and, by the late 15th century, of English heraldry. The classical descriptions are widely thought to derive from second-hand accounts of the Indian or Caspian tiger, possibly mixed with reports of porcupines or other animals.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Martichora | Greek (Ctesias) | transliteration of the Old Persian name |
+| Mantichoras | Greek (later mss.) | corrupted transmission of 'martichora' |
+| Martyaxwar / Martīya-xvāra | Old Persian | 'man-eater' (from martīya 'man' + xvar- 'to eat') |
+| Mardkhora | Middle Persian / New Persian |  |
 
-### Primary Name
-- **Manticore** — From Persian 'martyaxwar' (man-eater), through Greek 'mantichoras' (μαρτιχόρας), to Latin 'manticora'.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Martyaxwar | Persian | "Man-eater" (original) |
-| Mantichora | Greek | Greek transliteration |
-| Manticora | Latin | Medieval Latin form |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: MYTHOLOGICAL_CREATURE
-├── Type: Hybrid Monster
-├── Subtype: Composite Man-eater
-└── Variant: Persian/Greek
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Sphinx](/sphinx) | Similar | Another composite creature with human head and lion body |
-| [Chimera](/chimera) | Similar | Greek composite monster with multiple animal parts |
-| [Griffin](/griffin) | Related | Another Near Eastern hybrid creature |
+- **Origin**: Old Persian compound 'martyaxwar' / 'martīya-xvāra', from martīya ('man') + xvar- ('to eat'). Transliterated into Greek as μαρτιχόρας (martichōras) by Ctesias and corrupted in later manuscripts to mantichōras, the form that gave rise to Latin mantichora and modern English 'manticore'.
+- **Meaning**: 'Man-eater'.
+- **First use**: Late 5th century BCE in the Greek of Ctesias's Indica.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Sphinx](../sphinx/) — _similar_: Greek and Egyptian human-faced lion composite
+- [Chimera](../chimera/) — _similar_: Greek composite man-eating creature
+- [Lamassu](../lamassu/) — _related_: Mesopotamian human-headed winged bull or lion
+- [Leucrocota](../leucrocota/) — _similar_: Another Indian/African composite reported by Ctesias and Pliny
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description |
-|-----------|-------------|
-| **Head** | Human face, often bearded |
-| **Body** | Lion's body and legs |
-| **Tail** | Scorpion tail with venomous spines |
-| **Size** | Large as a lion |
-| **Coloration** | Red, tawny, lion-colored |
-| **Eyes** | Blue or gray |
+- **Coloration**: cinnabar red, vermilion
+- **Morphology**: A composite quadruped: lion's body, human face, scorpion-like tail. Medieval bestiaries often gave it a Phrygian cap, a heavy mane, and porcupine-like spines.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Human head | Face of a human, often depicted as bearded man | Always |
-| Three rows of teeth | Three complete rows of teeth in each jaw | Always |
-| Lion body | Body and legs of a large lion | Always |
-| Scorpion tail | Tail with venomous spines | Always |
-| Blue/gray eyes | Often described with pale eyes | Common |
-| Red fur/mane | Reddish coloration | Common |
+|---|---|---|
+| Lion's body | The size and body of the largest lion | always |
+| Human face | A human face, with blue eyes in some accounts | always |
+| Three rows of teeth | Three rows of teeth on each jaw, said to interlock like a comb | always |
+| Scorpion-like tail | Tail tipped with a sting like a scorpion's, with venomous spines that the creature is said to be able to fire forward, sideways, or backward | always |
+| Trumpet-like voice | A voice compared to a trumpet or pipe blended with a trumpet | common |
 
-### Powers & Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Spine projectiles | Can shoot venomous spines from tail like arrows | Mythological |
-| Complete consumption | Devours entire prey including bones, leaving no trace | Mythological |
-| Trumpet voice | Voice like a trumpet or pipe | Mythological |
-| Great speed | Extremely swift and agile like a lion | Mythological |
-
----
-
-## Original Description
-
-### Ctesias of Cnidus (5th century BCE)
-
-According to **Ctesias**, the Greek physician to Persian King Artaxerxes II:
-
-> *"The manticore (martyaxwar) is found in India. It has the face of a human, three rows of teeth, the body of a lion, and a tail like a scorpion's with stinging spines that can be shot like arrows. Its voice resembles a trumpet. It is red in color and devours its prey entirely, leaving nothing behind—not bones, clothing, or possessions."*
-
-**Other Ancient Accounts:**
-- **Aristotle** (4th century BCE) — Mentioned skeptically in *History of Animals*
-- **Pliny the Elder** (1st century CE) — Included in Roman *Natural History*
-
----
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Firing venomous spines from its tail | Said to launch poisonous tail-spines with the force of an arrow over considerable distance | always | folklore |
+| Devouring victims completely | Said to devour humans entirely, leaving no trace | common | folklore |
 
 ## Behavior
 
-### Diet: Exclusively Human
-
-The manticore is described as preying **exclusively on humans**. It:
-- Actively hunts people
-- Devours victims completely
-- Leaves **no remains** — no bones, clothing, or possessions
-- Was feared throughout the regions it supposedly inhabited
+- **Activity**: variable
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: forests and remote regions of India (in Ctesias), mountains in later sources
+- **Diet**: Human flesh; the name itself means 'man-eater'
 
 ---
+## Distribution
 
-## Likely Historical Basis
+Originally placed in 'India' by Ctesias and his Greek and Latin successors. In medieval bestiaries and heraldry the creature is generic to far-eastern and exotic landscapes.
 
-### The Tiger Theory
-
-**Most scholars believe the manticore was based on Persian/Caspian tigers:**
-
-**Evidence supporting tiger origin:**
-1. **Tigers were present in Persia** — Historical range included Persia
-2. **Man-eating tigers documented** — Behavior matches
-3. **Three rows of teeth** — Likely exaggerated description of tiger teeth/fangs
-4. **Red/orange coloration** — Matches tiger fur
-5. **Size matches** — "Large as a lion"
-6. **Man-eating behavior** — Tigers known to hunt humans
-
-### Cultural Transmission Issues
-
-**How a tiger became a manticore:**
-1. **Secondhand accounts** — Ctesias relied on Persian stories he heard
-2. **Translation errors** — Persian to Greek translation likely distorted details
-3. **Cultural embellishment** — Fantastical elements added through oral transmission
-4. **Exaggeration** — Fear and wonder amplified descriptions
-5. **Mistranslation** — "Martyaxwar" (man-eater) may have been misunderstood
 
 ---
-
-## Geographic Distribution
-
-### Original Habitat
-
-**Persian accounts:** Persia and surrounding regions
-**Greek accounts:** India (likely confusion or expansion of range)
-
-### Medieval Europe
-
-The manticore was adopted into **medieval European bestiaries** as a literary creature, not claimed to exist locally.
-
----
-
-## Symbolism
-
-### Medieval Christian Interpretation
-
-- **Symbol of the devil** devouring sinners
-- **Complete consumption** as metaphor for damnation
-- **Foreign/unknown dangers**
-- **Exotic evil**
-
-### Primary Meanings
-
-1. **Savage predation** — Ultimate predator
-2. **Exotic danger** — Threat from foreign lands
-3. **The other/foreign threat** — Fear of the unknown
-4. **Composite evil** — Multiple dangers combined
-5. **Complete destruction** — Total annihilation
-
----
-
 ## Historical Timeline
 
 | Date | Event | Significance |
-|------|-------|--------------|
-| 5th century BCE | Ctesias describes manticore | First written Greek account based on Persian stories |
-| 4th century BCE | Aristotle mentions it | Included in *History of Animals* (skeptically) |
-| 1st century CE | Pliny the Elder's account | Included in Roman natural history |
-| Medieval period | European bestiaries | Incorporated into medieval manuscripts and heraldry |
-| Modern era | Fantasy literature | Continues in games, literature, and art |
-
----
+|---|---|---|
+| 0400 BCE | Ctesias of Cnidus describes the martichora in his Indica | First Greek account of the manticore |
+| 0350 BCE | Aristotle, in the Historia Animalium, cites Ctesias's account of the martichora | Embeds the manticore in the classical natural-history tradition |
+| 0077-01-01 | Pliny the Elder includes the manticore in the Natural History (Naturalis Historia, Book VIII) | Anchors the creature in Latin natural history |
+| 0220-01-01 | Aelian's De Natura Animalium preserves a fuller version of Ctesias's description | Major source for later Greek and Latin treatments |
+| 1470-01-01 | Manticore appears in English heraldry, notably as a badge of William, Lord Hastings | Marks the manticore's adoption into Western heraldic tradition |
 
 ## Evidence
 
-### Historical Sources
+### Documentary
 
-| Type | Description | Period |
-|------|-------------|--------|
-| Literary | Ancient Greek texts by Ctesias, Aristotle, Pliny | 5th century BCE onwards |
-| Bestiary | Medieval bestiaries with illustrations | Medieval Europe |
-| Heraldic | Manticore in European heraldry | Medieval-present |
-
-**Note:** The manticore is purely mythological with no modern cryptozoological claims.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Ctesias, Indica (late 5th century BCE) | 0400 BCE | Greek-language description of an Indian man-eating creature, the martichora, by a Greek physician at the Achaemenid Persian court. | disputed |
 
 ---
+## Theories & Explanations
+
+### Scientific
+
+**Garbled tiger and porcupine** _(Modern classicists and zoologists, summarised in Wilfred H. Schoff's edition of Ctesias and others)_
+
+The manticore is best understood as a Greek literary distortion of accounts of the Indian or Caspian tiger, possibly merged with the porcupine (whose seemingly 'shot' quills underlie the venom-spine motif).
+
+### Skeptical
+
+**Literary chimera** _(Bestiary scholars, Classicists)_
+
+The manticore is a literary creation built up from a kernel of foreign-animal report, embellished by Greek and Latin writers and stabilised by medieval bestiary tradition.
+
 
 ## Popular Culture
 
-### Medieval Usage
+**Literature**: Pliny the Elder, Naturalis Historia, Book VIII (c. 77 CE); Aelian, De Natura Animalium (3rd century CE); Jorge Luis Borges, Book of Imaginary Beings (1957); T. H. White, The Bestiary: A Book of Beasts (1954); J. K. Rowling, Fantastic Beasts and Where to Find Them (2001)
 
-- **Bestiaries** — Featured in illuminated manuscripts with moral lessons
-- **Heraldry** — Used in coats of arms to represent fierceness
-- **Symbolism** — Dangerous cunning and complete destruction
+**Film / TV**: Manticore (2005 SyFy / Sci Fi Pictures film)
 
-### Literature
+**Games**: Dungeons & Dragons (manticore as a stock monster); The Witcher series; Heroes of Might and Magic
 
-- Medieval bestiaries
-- T.H. White's *The Book of Beasts*
-- Modern fantasy literature
-
-### Games
-
-- *Dungeons & Dragons*
-- *Magic: The Gathering*
-- *World of Warcraft*
-- *The Witcher* series
-
-### Other
-
-- Heraldry and coats of arms
-- Fantasy art
-- Role-playing games
+**Other**: Common heraldic charge in English and continental heraldry from c. 1470 onward
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Data Access
+## How to Report a Sighting
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const manticore = await wyrd.getPhenomenon('manticore');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/manticore/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Ctesias of Cnidus. *Indica* (~5th century BCE, fragmentary)
-- Aristotle. *History of Animals* (~4th century BCE)
-- Pliny the Elder. *Natural History* (77-79 CE)
-- White, T.H. (1954). *The Book of Beasts*. Jonathan Cape.
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Report Historical Source](../../issues/new?template=source_addition.yml) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

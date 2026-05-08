@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/manticore",
     "maintainers": [
       {
@@ -16,71 +16,116 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "manticore",
     "name": "Manticore",
-    "aliases": [],
+    "aliases": [
+      { "name": "Martichora", "language": "Greek (Ctesias)", "meaning": "transliteration of the Old Persian name" },
+      { "name": "Mantichoras", "language": "Greek (later mss.)", "meaning": "corrupted transmission of 'martichora'" },
+      { "name": "Martyaxwar / Martīya-xvāra", "language": "Old Persian", "meaning": "'man-eater' (from martīya 'man' + xvar- 'to eat')" },
+      { "name": "Mardkhora", "language": "Middle Persian / New Persian" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "| Description | Period |",
+    "subcategory": "Persian / Greco-Persian composite man-eater",
     "tags": [
-      "—-dangerous-cunning-and-complete-destruction"
+      "persia",
+      "greek-historiography",
+      "ctesias",
+      "bestiary",
+      "composite-creature",
+      "man-eater",
+      "scorpion-tail"
     ],
     "status": "documented",
     "description": {
-      "summary": "The manticore is a legendary creature from Persian mythology, described as having a **human head**, a **lion's body**, and a **scorpion's tail** armed with venomous spines that can be shot like projectiles.",
-      "full": "The manticore is a legendary creature from Persian mythology, described as having a **human head**, a **lion's body**, and a **scorpion's tail** armed with venomous spines that can be shot like projectiles. Its name derives from the Persian **'martyaxwar'** meaning \\\"man-eater.\\\" First described by the Greek physician **Ctesias** in the 5th century BCE based on Persian accounts, the manticore is characterized by **three rows of teeth** running along each jaw, a trumpet-like voice, and the ability to devour its prey entirely—bones, clothing, and all—leaving no trace. The creature was incorporated into medieval European bestiaries and heraldry. The manticore is **likely based on exaggerated accounts of Persian tigers**, possibly combined with cultural fears and mistranslation."
+      "summary": "A man-eating creature of Persian origin, first described in Greek by the physician-historian Ctesias in the 5th century BCE. The manticore has the body of a lion, the face of a man with three rows of teeth, and a tail tipped with venomous spines or a scorpion's sting.",
+      "full": "The manticore is a legendary man-eating creature of Persian origin, first transmitted into Greek literature by Ctesias of Cnidus, a physician at the Achaemenid Persian court in the late 5th century BCE. In his Indica (preserved in summaries by Photius and quotations in Aelian's De Natura Animalium), Ctesias describes the martichora as a creature of India the size of the largest lion, cinnabar-red in colour, with a human face, blue eyes, three rows of teeth, and a tail like that of a scorpion that could fire venomous spines fore, aft, or sideways. The name is a Greek transliteration of an Old Persian compound 'martyaxwar' / 'martīya-xvāra', meaning 'man-eater'. Aristotle cites Ctesias on the creature in the Historia Animalium, and Pliny the Elder includes it in the Natural History; through these sources the manticore became a fixture of medieval European bestiaries and, by the late 15th century, of English heraldry. The classical descriptions are widely thought to derive from second-hand accounts of the Indian or Caspian tiger, possibly mixed with reports of porcupines or other animals."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Old Persian compound 'martyaxwar' / 'martīya-xvāra', from martīya ('man') + xvar- ('to eat'). Transliterated into Greek as μαρτιχόρας (martichōras) by Ctesias and corrupted in later manuscripts to mantichōras, the form that gave rise to Latin mantichora and modern English 'manticore'.",
+      "meaning": "'Man-eater'.",
+      "first_use": "Late 5th century BCE in the Greek of Ctesias's Indica."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "| Description | Period |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Composite man-eater",
+      "subtype": "Lion-bodied / human-faced / scorpion-tailed",
+      "variant": "Greco-Persian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "sphinx", "name": "Sphinx", "relationship": "similar", "description": "Greek and Egyptian human-faced lion composite" },
+      { "id": "chimera", "name": "Chimera", "relationship": "similar", "description": "Greek composite man-eating creature" },
+      { "id": "lamassu", "name": "Lamassu", "relationship": "related", "description": "Mesopotamian human-headed winged bull or lion" },
+      { "id": "leucrocota", "name": "Leucrocota", "relationship": "similar", "description": "Another Indian/African composite reported by Ctesias and Pliny" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["cinnabar red", "vermilion"],
+      "features": [
+        { "feature": "Lion's body", "description": "The size and body of the largest lion", "frequency": "always" },
+        { "feature": "Human face", "description": "A human face, with blue eyes in some accounts", "frequency": "always" },
+        { "feature": "Three rows of teeth", "description": "Three rows of teeth on each jaw, said to interlock like a comb", "frequency": "always" },
+        { "feature": "Scorpion-like tail", "description": "Tail tipped with a sting like a scorpion's, with venomous spines that the creature is said to be able to fire forward, sideways, or backward", "frequency": "always" },
+        { "feature": "Trumpet-like voice", "description": "A voice compared to a trumpet or pipe blended with a trumpet", "frequency": "common" }
+      ],
+      "morphology": "A composite quadruped: lion's body, human face, scorpion-like tail. Medieval bestiaries often gave it a Phrygian cap, a heavy mane, and porcupine-like spines."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Firing venomous spines from its tail", "description": "Said to launch poisonous tail-spines with the force of an arrow over considerable distance", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Devouring victims completely", "description": "Said to devour humans entirely, leaving no trace", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["forests and remote regions of India (in Ctesias)", "mountains in later sources"],
+      "diet": "Human flesh; the name itself means 'man-eater'"
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originally placed in 'India' by Ctesias and his Greek and Latin successors. In medieval bestiaries and heraldry the creature is generic to far-eastern and exotic landscapes.",
+      "continents": ["Asia"],
+      "countries": ["India", "Iran (Persia)"],
+      "regions": ["Achaemenid Persia", "South Asia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0400 BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Ctesias of Cnidus, Indica (preserved in Photius and Aelian)"
+      },
+      "peak_activity_periods": [
+        { "period": "Classical antiquity", "description": "Ctesias (late 5th c. BCE), Aristotle (4th c. BCE), Pliny the Elder (1st c. CE), Aelian (3rd c. CE) treat the manticore as an exotic but real Indian beast." },
+        { "period": "Medieval Europe", "description": "Manticore enters Latin Christian bestiaries via Solinus and Isidore of Seville, and appears in later medieval and Renaissance heraldry from c. 1470 onward." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Achaemenid Persian oral tradition, transmitted into Greek via Ctesias's experience as physician at the Persian court.",
+      "earliest_accounts": "Ctesias of Cnidus, Indica (late 5th century BCE), preserved in Aelian's De Natura Animalium (3rd c. CE) and Photius's Bibliotheca (9th c. CE).",
+      "folklore_connections": "Likely a literary recasting of the Indian or Caspian tiger, exaggerated in transmission and conflated with other animals (notably the porcupine, whose detachable spines may underlie the 'firing tail-spines' motif)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0400 BCE", "event": "Ctesias of Cnidus describes the martichora in his Indica", "significance": "First Greek account of the manticore", "source": "Ctesias, Indica (preserved in Photius, Bibliotheca, and Aelian, De Natura Animalium)" },
+      { "date": "0350 BCE", "event": "Aristotle, in the Historia Animalium, cites Ctesias's account of the martichora", "significance": "Embeds the manticore in the classical natural-history tradition", "source": "Aristotle, Historia Animalium 2.1" },
+      { "date": "0077-01-01", "event": "Pliny the Elder includes the manticore in the Natural History (Naturalis Historia, Book VIII)", "significance": "Anchors the creature in Latin natural history", "source": "Pliny, Naturalis Historia VIII" },
+      { "date": "0220-01-01", "event": "Aelian's De Natura Animalium preserves a fuller version of Ctesias's description", "significance": "Major source for later Greek and Latin treatments", "source": "Aelian, De Natura Animalium IV.21" },
+      { "date": "1470-01-01", "event": "Manticore appears in English heraldry, notably as a badge of William, Lord Hastings", "significance": "Marks the manticore's adoption into Western heraldic tradition", "source": "English heraldic records of the late 15th century" }
+    ],
+    "modern_era": "The manticore has become a stock fantasy creature, recurring in Borges's Book of Imaginary Beings, J. K. Rowling's Harry Potter series, and tabletop games such as Dungeons & Dragons, generally drawing on the Plinian / bestiary description rather than directly on Ctesias."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +136,128 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "manticore-evidence-ctesias",
+        "type": "literary source",
+        "name": "Ctesias, Indica (late 5th century BCE)",
+        "date": "0400 BCE",
+        "description": "Greek-language description of an Indian man-eating creature, the martichora, by a Greek physician at the Achaemenid Persian court.",
+        "status": "disputed",
+        "analysis": "Treated by ancient and modern scholars alike as a probable garbled account of the Indian or Caspian tiger.",
+        "source": "Photius, Bibliotheca cod. 72; Aelian, De Natura Animalium IV.21"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Garbled tiger and porcupine",
+        "description": "The manticore is best understood as a Greek literary distortion of accounts of the Indian or Caspian tiger, possibly merged with the porcupine (whose seemingly 'shot' quills underlie the venom-spine motif).",
+        "proponents": ["Modern classicists and zoologists, summarised in Wilfred H. Schoff's edition of Ctesias and others"],
+        "evidence_cited": ["Tiger's size, colour, and ferocity in northern India", "Porcupine spine-throwing folklore", "Pattern of distortion characteristic of Ctesias"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Literary chimera",
+        "description": "The manticore is a literary creation built up from a kernel of foreign-animal report, embellished by Greek and Latin writers and stabilised by medieval bestiary tradition.",
+        "proponents": ["Bestiary scholars", "Classicists"],
+        "evidence_cited": ["No physical or biogeographical evidence", "Clear textual genealogy from Ctesias through Pliny to medieval bestiaries"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Greek natural-history tradition (Ctesias, Aristotle, Aelian)",
+        "Latin natural history (Pliny, Solinus)",
+        "Medieval Christian bestiary tradition",
+        "European heraldic tradition"
+      ],
+      "stories": [
+        "Ctesias's Indica account of the man-eating martichora",
+        "Aelian's preservation of the same account in De Natura Animalium",
+        "Bestiary depictions in Latin Christian manuscripts"
+      ],
+      "beliefs": "In antiquity and the Middle Ages, the manticore was generally accepted as a real exotic animal of distant lands."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Pliny the Elder, Naturalis Historia, Book VIII (c. 77 CE)",
+        "Aelian, De Natura Animalium (3rd century CE)",
+        "Jorge Luis Borges, Book of Imaginary Beings (1957)",
+        "T. H. White, The Bestiary: A Book of Beasts (1954)",
+        "J. K. Rowling, Fantastic Beasts and Where to Find Them (2001)"
+      ],
+      "film_tv": [
+        "Manticore (2005 SyFy / Sci Fi Pictures film)"
+      ],
+      "games": [
+        "Dungeons & Dragons (manticore as a stock monster)",
+        "The Witcher series",
+        "Heroes of Might and Magic"
+      ],
+      "music": [],
+      "other": [
+        "Common heraldic charge in English and continental heraldry from c. 1470 onward"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The manticore is studied within classics, the history of natural history, bestiary studies, and heraldry."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-manticore",
+      "type": "website",
+      "title": "Manticore",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Manticore",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "ctesias-indica",
+      "type": "book",
+      "title": "Indica",
+      "authors": ["Ctesias of Cnidus"],
+      "date": "0400 BCE",
+      "notes": "Preserved in fragments by Photius (Bibliotheca, cod. 72) and Aelian (De Natura Animalium)."
+    },
+    {
+      "id": "pliny-naturalis-historia",
+      "type": "book",
+      "title": "Naturalis Historia",
+      "authors": ["Pliny the Elder"],
+      "date": "0077"
+    },
+    {
+      "id": "aelian-de-natura-animalium",
+      "type": "book",
+      "title": "De Natura Animalium",
+      "authors": ["Claudius Aelianus"],
+      "date": "0220"
+    },
+    {
+      "id": "borges-1957",
+      "type": "book",
+      "title": "El libro de los seres imaginarios (Book of Imaginary Beings)",
+      "authors": ["Jorge Luis Borges"],
+      "date": "1957"
+    }
+  ]
 }
